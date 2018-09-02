@@ -20,7 +20,7 @@ after_success:
 
   #BUILD
    - export HELLO=rolandjurd/hello-service
-   - docker build -t $HELLO:$COMMIT
+   - docker build -t $HELLO:$COMMIT .
    - docker tag $HELLO:$COMMIT $HELLO:$TAG
    - docker push $HELLO
 
