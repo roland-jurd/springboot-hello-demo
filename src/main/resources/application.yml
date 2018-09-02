@@ -2,7 +2,7 @@ spring:
   application:
     name: hello-service
 
-servier:
+server:
   port: 8000
 
 
