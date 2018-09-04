@@ -1,7 +1,6 @@
 version: '3'
 services:
   hello-service:
-    image: roalndjurd/hello-service
+    image: rolandjurd/hello-service
     ports:
       - "8080:8000"
-
