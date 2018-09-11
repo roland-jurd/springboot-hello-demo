@@ -16,7 +16,7 @@ public class HelloController {
     
     @GetMapping("/test")
     public String test() throws UnknownHostException {
-        return "Hi Tech Time from " + InetAddress.getLocalHost().getHostName();
+        return "Hi Canary from " + InetAddress.getLocalHost().getHostName();
     }
     
 }
