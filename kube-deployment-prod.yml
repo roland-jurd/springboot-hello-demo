@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: rolandjurd/hello-service:4124631
+          image: rolandjurd/hello-service:
           livenessProbe:
             httpGet:
               port: 8000
